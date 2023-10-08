@@ -1,0 +1,80 @@
+
+li, a {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: deeppink;
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 70px;
+    background-color: beige;
+}
+
+header {
+    align-items: left;
+    padding: 1px 10%;
+    background-color: pink;
+}
+.nav-links {
+    list-style: none;
+}
+.nav-links li{
+    padding: 1px 20px;
+}
+.nav-link li a {
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+    color: yellow;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.banner {
+    position: relative;
+    background-image: url("assets/travheader.png");
+    background-repeat: round;
+}
+.banner h1 {
+    text-align: left;
+    font-size: 48px;
+    color: deeppink;
+    margin: 1.5 0px;
+}
+.left-column {
+    float: left;
+    width: 75%;
+}
+.right-column {
+    width: 25%;
+    float: right;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.card {
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+.card img {
+    width: 990px;
+    height: 600px;
+}
+.profile-card {
+    padding: 20px;
+    background-color: white;
+}
+
