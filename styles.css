@@ -1,3 +1,45 @@
+section {
+    background: darkorange;
+    height: 1000px;
+    padding: 16px;
+    border: 1px solid lightgray;
+}
+form {
+    height: 100%;
+}
+label, input {
+    display: block;
+}
+#first-name {
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    width: 300px;
+}
+#email {
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    width: 300px;
+}
+.howdoyoulikemyjournal {
+    color: white;
+}
+button {
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#message {
+    width: 300px;
+    resize: none;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+}
+.container {
+    margin: 16px 0 16px 0;
+}
 
 li, a {
     font-family: 'Manrope', sans-serif;
