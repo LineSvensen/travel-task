@@ -1,6 +1,7 @@
+
 section {
     background: darkorange;
-    height: 1000px;
+    height: 100%;
     padding: 16px;
     border: 1px solid lightgray;
 }
@@ -56,7 +57,9 @@ body {
     font-family: 'Manrope', sans-serif;
     margin: 0;
     padding: 70px;
-    background-color: beige;
+    background-color: #D4FFD0;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -95,10 +98,19 @@ header {
     font-size: 48px;
     color: deeppink;
     margin: 1.5 0px;
+    margin-left: 20px;
+}
+.column {
+    flex: 50%;
 }
 .left-column {
     float: left;
     width: 75%;
+}
+.row:after {
+    content: "";
+    display: flex;
+    clear: both;
 }
 .right-column {
     width: 25%;
@@ -119,4 +131,9 @@ header {
     padding: 20px;
     background-color: white;
 }
-
+footer {
+    background-color: lightpink;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
